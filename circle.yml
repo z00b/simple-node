@@ -3,11 +3,6 @@ machine:
   node:
     version: 6.11.1
 
-dependencies:
-  pre:
-    - sudo apt-get update
-    - sudo apt-get install nodejs
-
 test:
   override:
     - node --version
